@@ -20,4 +20,6 @@ public:
         : Vehicle("None"), Transportation_ID(0), Transportation_Time(0), Break_Time(0), Departure("None"), Destination("None") {}
 
     virtual ~Transportation() = default;
+
+   
 };
